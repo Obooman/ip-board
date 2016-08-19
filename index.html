@@ -148,16 +148,13 @@ var RTCPeerConnection = window.webkitRTCPeerConnection;
     }
 
     gui.App.registerGlobalHotKey(closeShortCut);
-    gui.App.registerGlobalHotKey(reloadShortCut);
 
     function registerHotKey(){
       gui.App.registerGlobalHotKey(closeShortCut);
-      gui.App.registerGlobalHotKey(reloadShortCut);
     }
 
     function unregisterHotKey(){
       gui.App.unregisterGlobalHotKey(closeShortCut);
-      gui.App.unregisterGlobalHotKey(reloadShortCut);
     }
 
     currentWindow.on('focus',registerHotKey)
