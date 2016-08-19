@@ -1,0 +1,13 @@
+{
+	"name": "ip-board",
+	"main": "index.html",
+	"window": {
+       "frame": false,
+       "toolbar": false,
+       "user-agent":"macOS/Webkit Oboochin",
+       "width":144,
+       "height":28,
+       "resizable":false,
+       "always-on-top":true
+     }
+}
